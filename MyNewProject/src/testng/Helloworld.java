@@ -13,6 +13,8 @@ public class Helloworld {
 		WebDriver driver =new FirefoxDriver();
 		Thread.sleep(3000);
 		driver.manage().window().maximize();
+		
+		System.out.println("my first change");
 		driver.get("http://www.guru99.com/selenium-tutorial.html");
 	}
 
